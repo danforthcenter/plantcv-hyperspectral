@@ -34,11 +34,6 @@ here = path.abspath(path.dirname(__file__))
 with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
-try:
-    import cv2
-except ImportError:
-    raise ImportError("ERROR: OpenCV package 'cv2' not found.")
-
 setuptools.setup(
     name='plantcv-hyperspectral',
 
@@ -102,7 +97,7 @@ setuptools.setup(
     # your project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['matplotlib>=1.5', 'numpy>=1.11', 'pandas', 'python-dateutil', 'scipy', 'scikit-image'],
+    install_requires=['spectral'],
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). You can install these using the following syntax,
