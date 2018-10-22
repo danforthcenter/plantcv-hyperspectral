@@ -5,32 +5,43 @@ sudo: false
 python:
   - "2.7"
   - "3.6"
+  - "3.7"
+# Allow Python3.7 tests to fail for now
+matrix:
+  allow_failures:
+  - python: "3.7"
+  # Do not have the virtualenv use system-wide site packages
 virtualenv:
     system_site_packages: false
 # command to install dependencies
-before_install:
-  - if [[ "$TRAVIS_PYTHON_VERSION" == "2.7" ]]; then
-      wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh -O miniconda.sh;
-    else
-      wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
-    fi
-  - bash miniconda.sh -b -p $HOME/miniconda
-  - export PATH="$HOME/miniconda/bin:$PATH"
-  - hash -r
-  - conda config --set always_yes yes --set changeps1 no
-#  - conda update -q conda
-  - conda info -a
-  # These are the packages we need
-  - if [[ "$TRAVIS_PYTHON_VERSION" == "2.7" ]]; then
-      conda create -q -c menpo -n test-environment python=$TRAVIS_PYTHON_VERSION opencv=2.4.11;
-    else
-      conda create -q -c conda-forge -n test-environment python=$TRAVIS_PYTHON_VERSION opencv=3.3.0;
-    fi
-  - source activate test-environment
-  - pip install coveralls matplotlib scipy scikit-image pytest pandas
-  - git clone https://github.com/danforthcenter/plantcv.git plantcv-base
-  - python ./plantcv-base/setup.py install
-# Install PlantCV
+# This section was commented out in plantcv, so I'm going to do the same
+#before_install:
+#  - if [[ "$TRAVIS_PYTHON_VERSION" == "2.7" ]]; then
+#      wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh -O miniconda.sh;
+#    else
+#      wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
+#    fi
+#  - bash miniconda.sh -b -p $HOME/miniconda
+#  - export PATH="$HOME/miniconda/bin:$PATH"
+#  - hash -r
+#  - conda config --set always_yes yes --set changeps1 no
+##  - conda update -q conda
+#  - conda info -a
+#  # These are the packages we need
+#  - if [[ "$TRAVIS_PYTHON_VERSION" == "2.7" ]]; then
+#      conda create -q -c menpo -n test-environment python=$TRAVIS_PYTHON_VERSION opencv=2.4.11;
+#    else
+#      conda create -q -c conda-forge -n test-environment python=$TRAVIS_PYTHON_VERSION opencv=3.3.0;
+#    fi
+#  - source activate test-environment
+#  - pip install coveralls matplotlib scipy scikit-image pytest pandas
+#  - git clone https://github.com/danforthcenter/plantcv.git plantcv-base
+#  - python ./plantcv-base/setup.py install
+
+###################
+# Install PlantCV#
+##################
+# Again, plantcv travis file looked quite different so I added to make them look the same
 install:
   - python setup.py install
 # command to run tests
