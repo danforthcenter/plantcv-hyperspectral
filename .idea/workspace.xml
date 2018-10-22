@@ -2,13 +2,197 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eea32bea-7e31-44de-8eaa-17d99a09cc2d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/tests.py" afterPath="$PROJECT_DIR$/tests/tests.py" />
+      <change afterPath="$PROJECT_DIR$/docs/img/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/analydid_approach.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/db-exporter.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/HistEqualization/grayscale_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/HistEqualization/normalized_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/acute_vertex/av_example_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/acute_vertex/av_output.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/analyze_NIR_intensity/nir_histogram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/analyze_NIR_intensity/original_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/analyze_NIR_intensity/pseudocolored_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/analyze_NIR_intensity/shapes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/analyze_bound_horizontal/boundary_330.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/analyze_bound_horizontal/boundary_950.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/analyze_bound_vertical/1_boundary_on_img1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/analyze_bound_vertical/1_boundary_on_img1100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/analyze_color/color_histogram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/analyze_color/original_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/analyze_color/pseudocolored_value_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/analyze_shape/objects_on_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/analyze_shape/original_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/analyze_shape/shapes_on_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/apply_mask/black_masked_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/apply_mask/mask.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/apply_mask/original_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/apply_mask/white_masked_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/auto_crop/155_auto_cropped.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/auto_crop/155_crop_area.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/auto_crop/2016-05-25_1031.chamber129-camera-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/auto_threshold/gaussian_threshold.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/auto_threshold/mean_threshold.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/auto_threshold/original_image1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/background_subtraction/1_background_subtraction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/background_subtraction/TEST_BACKGROUND.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/background_subtraction/TEST_FOREGROUND.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/binary_threshold/original_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/binary_threshold/saturation_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/binary_threshold/thresholded_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/binary_threshold/thresholded_inverse_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/circle/image_with_roi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/circle/original_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/cluster_contour/13_roi_mask.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/cluster_contour/14_clusters.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/cluster_contour_splitimg/14_clusters.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/cluster_contour_splitimg/15_clusters.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/cluster_contour_splitimg/16_clusters.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/cluster_contour_splitimg/17_clusters.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/color_correction_tutorial/hstack_chips.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/color_correction_tutorial/hstack_incomplete.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/color_correction_tutorial/hstack_incomplete_plants.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/color_correction_tutorial/hstack_plants.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/correct_color_imgs/hstack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/correct_color_imgs/source_img_plant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/correct_color_imgs/target_img_plant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/crop_position_mask/18_mask_overlay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/crop_position_mask/19_mask_overlay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/crop_position_mask/23_resize1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/crop_position_mask/original_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/database/sql_schema.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/dilate/dilate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/dilate/grayscale_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/distance_transform/distance_transform_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/distance_transform/mask_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/ellipse/image_with_roi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/ellipse/original_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/erode/erosion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/erode/grayscale_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/fill/binary_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/fill/fill_200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/find_objects/contours.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/find_objects/mask.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/find_objects/original_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/flip/flipped.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/flip/flipped1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/flip/original_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/fluor_fvfm/fdark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/fluor_fvfm/fmax.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/fluor_fvfm/fmin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/fluor_fvfm/fvfm_histogram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/fluor_fvfm/fvfm_pseudocolored.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/from_binary_image/binary_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/from_binary_image/image_with_roi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/gaussian_blur/gaussian_blur101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/gaussian_blur/gaussian_blur51.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/gaussian_blur/original_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/image_add/added_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/image_add/image1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/image_add/image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/image_subtract/background_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/image_subtract/plant_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/image_subtract/result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/invert/binary_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/invert/inverted_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/jupyter/jupyter_screenshot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/landmark_reference_pt_dist/lrpd_example_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/landmark_reference_pt_dist/lrpd_output.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/laplace_filter/grayscale_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/laplace_filter/lp_filtered.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/logical_and/image1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/logical_and/image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/logical_and/joined.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/logical_or/image1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/logical_or/image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/logical_or/joined.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/logical_xor/19_binary_threshold120_inv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/logical_xor/20_binary_threshold50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/logical_xor/21_xor_joined.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/median_blur/median_blur11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/median_blur/median_blur5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/median_blur/thresholded_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/naive_bayes_classifier/mask_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/naive_bayes_classifier/original_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/object_composition/combined.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/object_composition/contours.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/object_composition/original_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/otsu_threshold/original_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/otsu_threshold/original_image1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/otsu_threshold/thresholded_dark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/otsu_threshold/thresholded_light.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/plot_hist/grayscale_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/plot_hist/histogram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/rectangle/image_with_roi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/rectangle/original_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/rectangle_mask/grayscale_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/rectangle_mask/masked.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/rectangle_mask/roi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/report_size_marker/15_marker_roi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/report_size_marker/21_marker_shape.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/report_size_marker/seed-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/resize/19_flipped.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/resize/19_resize1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/rgb2gray/gray.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/rgb2gray/original_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/rgb2hsv/hsv_hue.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/rgb2hsv/hsv_saturation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/rgb2hsv/hsv_value.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/rgb2hsv/original_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/rgb2lab/lab_blue-yellow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/rgb2lab/lab_green-magenta.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/rgb2lab/lab_lightness.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/rgb2lab/original_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/roi_objects/kept_objects1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/roi_objects/kept_objects2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/roi_objects/mask1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/roi_objects/mask2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/roi_objects/obj_on_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/roi_objects/obj_on_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/rotate2/10_rotated_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/rotate2/34_whitebalance.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/rotate2/8_rotated_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/scale_features/av_output.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/scale_features/sf_output.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/shift/36_whitebalance.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/shift/37_shifted.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/sobel_filter/original_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/sobel_filter/sobel-x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/sobel_filter/sobel-y.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/triangle_threshold/11_triangle_thresh_hist_3.0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/triangle_threshold/11_triangle_thresh_img_3.0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/triangle_threshold/4_triangle_thresh_hist_30.0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/triangle_threshold/4_triangle_thresh_img_30.0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/triangle_threshold/input_gray_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/watershed/543_auto_cropped.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/watershed/watershed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/white_balance/corrected_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/white_balance/original_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/x_axis_pseudolandmarks/xap_output.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/x_axis_pseudolandmarks/xpl_example_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/y_axis_pseudolandmarks/yap_output.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/documentation_images/y_axis_pseudolandmarks/ypl_example_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/faq.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/installation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/jupyter.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/machine_learning_tutorial.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/multi-plant_tutorial.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/nir_tutorial.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/output_measurements.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/pipeline_parallel.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/psII_tutorial.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/updating.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/vis_nir_tutorial.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/vis_tutorial.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="plantcv-hyperspectral.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,17 +201,57 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="27617870">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="md" value="11" />
+          <entry key="py" value="3" />
+          <entry key="txt" value="2" />
+          <entry key="yml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Markdown" value="11" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="3" />
+          <entry key="YAML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="yml" value="53" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="YAML" value="53" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="plantcv-hyperspectral" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="99" column="31" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#142#152#0" expanded="true" />
               </folding>
@@ -35,10 +259,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="read_hyperspectral.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plantcv/hyperspectral/read_hyperspectral.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
+            <state relative-caret-position="555">
               <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -47,11 +271,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="510">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="e#23#36#0" expanded="true" />
               </folding>
@@ -59,12 +283,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plantcv/hyperspectral/__init__.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="71" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
-              <folding />
+            <state relative-caret-position="420">
+              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/img/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="615">
+                <caret line="41" column="58" lean-forward="true" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mkdocs.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -73,6 +317,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -81,32 +330,78 @@
         <option value="$PROJECT_DIR$/plantcv/hyperspectral/read_hyperspectral.py" />
         <option value="$PROJECT_DIR$/plantcv/hyperspectral/__init__.py" />
         <option value="$PROJECT_DIR$/tests/tests.py" />
+        <option value="$PROJECT_DIR$/docs/img/index.md" />
+        <option value="$PROJECT_DIR$/mkdocs.yml" />
+        <option value="$PROJECT_DIR$/docs/img/installation.md" />
+        <option value="$PROJECT_DIR$/docs/img/updating.md" />
+        <option value="$PROJECT_DIR$/docs/img/faq.md" />
+        <option value="$PROJECT_DIR$/docs/img/analydid_approach.md" />
+        <option value="$PROJECT_DIR$/docs/img/jupyter.md" />
+        <option value="$PROJECT_DIR$/docs/img/output_measurements.md" />
+        <option value="$PROJECT_DIR$/docs/img/vis_tutorial.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="27" />
-    <option name="y" value="23" />
-    <option name="width" value="1114" />
-    <option name="height" value="697" />
+    <option name="x" value="84" />
+    <option name="y" value="84" />
+    <option name="width" value="1243" />
+    <option name="height" value="662" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="plantcv-hyperspectral" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plantcv-hyperspectral" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plantcv-hyperspectral" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plantcv-hyperspectral" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plantcv-hyperspectral" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plantcv-hyperspectral" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/img" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -119,26 +414,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="27" y="23" width="1114" height="697" extended-state="0" />
+    <frame x="84" y="84" width="1243" height="662" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2569558" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -152,40 +447,40 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/setup.py</url>
-          <line>7</line>
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="1" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/plantcv/hyperspectral/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="71" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#23#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="99" column="31" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#142#152#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plantcv/hyperspectral/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="71" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plantcv/hyperspectral/read_hyperspectral.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
+        <state relative-caret-position="555">
           <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -193,13 +488,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/tests.py">
+    <entry file="file://$PROJECT_DIR$/docs/img/updating.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="7680">
+            <caret line="512" selection-start-line="512" selection-end-line="512" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/img/faq.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="493">
+            <caret line="113" selection-start-line="113" selection-end-line="113" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/img/analydid_approach.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="490">
+            <caret line="148" selection-start-line="148" selection-end-line="148" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/img/jupyter.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2955">
+            <caret line="197" selection-start-line="197" selection-end-line="197" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/img/output_measurements.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="490">
+            <caret line="81" selection-start-line="81" selection-end-line="81" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/img/vis_tutorial.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="490">
+            <caret line="383" selection-start-line="383" selection-end-line="383" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/img/vis_nir_tutorial.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#36#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/img/installation.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="3120">
+            <caret line="208" selection-start-line="208" selection-end-line="208" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/img/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="615">
+            <caret line="41" column="58" lean-forward="true" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkdocs.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
         </state>
       </provider>
     </entry>

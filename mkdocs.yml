@@ -1,0 +1,24 @@
+site_name: PlantCV-Hyperspectral
+site_url: http://plantcv.readthedocs.io/hyperspectral
+site_description: Hyperspectral imaging using computer vision
+site_author: PlantCV Development Team
+repo_url: https://github.com/danforthcenter/plantcv
+copyright: Copyright 2016, Donald Danforth Plant Science Center
+
+pages:
+- Home: index.md
+- Documentation:
+  - 'Installation': installation.md
+  - 'Updating PlantCV': updating.md
+  - 'Frequently Asked Questions': faq.md
+  - 'Analysis Approaches': analysis_approach.md
+  - 'Using Jupyter Notebooks': jupyter.md
+  - 'Summary of Output Measurements': output_measurements.md
+  - 'Contributing':
+    - 'Contributing to PlantCV': CONTRIBUTING.md
+    - 'Code of Conduct': CODE_OF_CONDUCT.md
+    - 'Adding/Editing Documentation': documentation.md
+
+markdown_extensions:
+  - toc:
+      permalink: True
