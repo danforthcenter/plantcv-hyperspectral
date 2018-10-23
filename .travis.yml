@@ -13,8 +13,8 @@ matrix:
   # Do not have the virtualenv use system-wide site packages
 virtualenv:
     system_site_packages: false
+
 # command to install dependencies
-# This section was commented out in plantcv, so I'm going to do the same
 #before_install:
 #  - if [[ "$TRAVIS_PYTHON_VERSION" == "2.7" ]]; then
 #      wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh -O miniconda.sh;
@@ -41,7 +41,6 @@ virtualenv:
 ###################
 # Install PlantCV#
 ##################
-# Again, plantcv travis file looked quite different so I added to make them look the same
 install:
   - python setup.py install
 # command to run tests

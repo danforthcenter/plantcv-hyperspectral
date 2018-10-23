@@ -33,8 +33,6 @@ def test_read_hyperspectral():
     hyperimg, bands, path, filename = hy.read_hyperspectral(os.path.join(TEST_DATA, TEST_INPUT_HYPER))
     assert len(bands) == 978
 
-def test_fake_test():
-    assert 5 == 5
 # ##############################
 # Clean up test files
 # ##############################
