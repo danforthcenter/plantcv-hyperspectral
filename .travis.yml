@@ -46,7 +46,7 @@ install:
 # command to run tests
 script:
   - source activate test-environment
-  - coverage run --source=plantcv-hyperspectral setup.py test
+  - coverage run --source=plantcv setup.py test
 after_success:
   coveralls
 # Which branches to run build tests on
