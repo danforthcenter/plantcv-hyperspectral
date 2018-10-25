@@ -5,11 +5,18 @@ sudo: false
 python:
   - "2.7"
   - "3.6"
+  - "3.7"
+# Allow Python3.7 tests to fail for now
+matrix:
+  allow_failures:
+    - python: "3.7"
+# Do not have the virtualenv use system-wide site packages
 virtualenv:
     system_site_packages: false
 # command to install dependencies
-before_install:
-  - if [[ "$TRAVIS_PYTHON_VERSION" == "2.7" ]]; then
+install:
+  - |
+    if [[ "$TRAVIS_PYTHON_VERSION" == "2.7" ]]; then
       wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh -O miniconda.sh;
     else
       wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
@@ -18,25 +25,28 @@ before_install:
   - export PATH="$HOME/miniconda/bin:$PATH"
   - hash -r
   - conda config --set always_yes yes --set changeps1 no
-#  - conda update -q conda
   - conda info -a
+  # Clone base PlantCV
+  - git clone --depth=50 https://github.com/danforthcenter/plantcv.git plantcv-base
+  # Combine plantcv and plantcv-hyperspectral requirements
+  - cat ./plantcv-base/requirements.txt >> requirements.txt
   # These are the packages we need
-  - if [[ "$TRAVIS_PYTHON_VERSION" == "2.7" ]]; then
-      conda create -q -c menpo -n test-environment python=$TRAVIS_PYTHON_VERSION opencv=2.4.11;
+  - |
+    if [[ "$TRAVIS_PYTHON_VERSION" == "2.7" ]]; then
+    # matplotlib is causing issues with ths configuration on Travis-CI, overriding normal defaults
+      conda create -q -c conda-forge -n test-environment --file requirements.txt python=$TRAVIS_PYTHON_VERSION opencv=2.4 matplotlib=1.5 coveralls;
     else
-      conda create -q -c conda-forge -n test-environment python=$TRAVIS_PYTHON_VERSION opencv=3.3.0;
+      conda create -q -c conda-forge -n test-environment --file requirements.txt python=$TRAVIS_PYTHON_VERSION opencv=3.3 coveralls;
     fi
   - source activate test-environment
-  - pip install coveralls matplotlib scipy scikit-image pytest pandas
-  - git clone https://github.com/danforthcenter/plantcv.git plantcv-base
-  - python ./plantcv-base/setup.py install
-# Install PlantCV
-install:
+  # Install base plantcv
+  - cd plantcv-base; python setup.py install; cd ..
+  # Install the hyperspectral package
   - python setup.py install
 # command to run tests
 script:
   - source activate test-environment
-  - coverage run --source=plantcv-hyperspectral setup.py test
+  - coverage run --source=plantcv setup.py test
 after_success:
   coveralls
 # Which branches to run build tests on
