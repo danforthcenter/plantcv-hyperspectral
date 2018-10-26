@@ -78,14 +78,4 @@ def reference2array(path):
     print ('Average image width')
     print (image_array_ave.shape)
 
-
-if params.debug == "print":
-        message = str(filename) + "_input_image.png" + " succesfully opened. With a total of " + str(
-            bandNo) + " bands."
-        print(message)
-    elif params.debug == "plot":
-        message = str(filename) + "_input_image.png" + " succesfully opened. With a total of " + str(
-            bandNo) + " bands."
-        print(message)
-
     return image_array_all, gdalhyper, cols, rows, bands
