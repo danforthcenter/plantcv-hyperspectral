@@ -8,7 +8,7 @@ from osgeo import gdalconst
 from osgeo.gdalconst import *
 import numpy as np
 
-def read_hyperspectral_as_array(path):
+def hyperspectral2array(path):
     """this function allows you read in hyperspectral images in raw format as array (needs associated .hdr file)
 
     Inputs:
