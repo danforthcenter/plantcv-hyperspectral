@@ -45,11 +45,11 @@ def test_plantcv_spice_training():
     final_endmem = spice['final_endmembers']
     final_prop = spice['final_proportions']
     # Load parameters, turn off display
-    params = pcv.SPICE.SPICEParameters()
+    params = hy.SPICE.SPICEParameters()
     params.initEM = init_endmem
     params.produceDisplay = 0
     # Run the algorithm
-    endm, P = pcv.SPICE.SPICE(input_data, params)
+    endm, P = hy.SPICE.SPICE(input_data, params)
     # assert with a 0.01% tolerance, since the values are floats (can't do exact comparison)
     assert np.allclose(endm, final_endmem, rtol=0.0001) and np.allclose(P, final_prop, rtol=0.0001)
 
