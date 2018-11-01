@@ -1,6 +1,9 @@
 # SPICE
 Sparsity Promoting Iterated Constrained Endmembers
 
+Note that this is a subtree reference to the repository found at https://github.com/GatorSense/SPICE_py.git. 
+
+To update this portion of the plantcv hyperspectral package from the original source, use the command: ```git subtree pull --prefix plantcv/hyperspectral/SPICE https://github.com/GatorSense/SPICE_py.git master --squash``` 
 ***
 NOTE: If the SPICE Algorithm is used in any publication or presentation, the following reference must be cited:
 
