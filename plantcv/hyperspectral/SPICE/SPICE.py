@@ -111,7 +111,7 @@ def SPICE(inputData, parameters):
         
         # Given P minimize Endmembers
         endmembersPrev = endmembers
-        endmembers = (np.linalg.inv(P.T@P + lamb*(Im - (I1@I1.T)/M)) @ (P.T @ X.T)).T
+        endmembers = (np.linalg.inv(np.dot(P.T, P) + lamb*(Im - np.dot(np.dot(I1, I1.T))/M)), np.dot(P.T, X.T)).T
                                     
         
         # Prune Endmembers below pruning threshold
@@ -132,7 +132,7 @@ def SPICE(inputData, parameters):
         
         # Calculate RSSreg (the current objective function value)
         
-        sqerr = X - (endmembers @ P.T)
+        sqerr = X - np.dot(endmembers, P.T)
         sqerr = np.power(sqerr, 2) 
         RSS = sum(sum(sqerr))
         V = sum(sum(np.multiply(endmembers,endmembers),2) - (1/M)*np.multiply(sum(endmembers,2),2)/(M-1))
@@ -212,10 +212,10 @@ def unmix3(data, endmembers, gammaConst=0, P=None):
         P = np.ones((M, 1)) / M
 
     gammaVecs = np.divide(gammaConst, sum(P))
-    H = 2 * (endmembers.T @ endmembers)
+    H = 2 * (np.dot(endmembers.T, endmembers))
     cvxarr = np.zeros((N,M))
     for i in range(N):
-        F = ((np.transpose(-2 * X[:, i]) @ endmembers) + gammaVecs).T
+        F = (np.dot(np.transpose(-2 * X[:, i]), endmembers) + gammaVecs).T
         cvxopt_ans = solvers.qp(P=matrix(H), q=matrix(F), G=matrix(G), h=matrix(h), A=matrix(Aeq), b=matrix(beq))
         cvxarr[i, :] = np.array(cvxopt_ans['x']).T
     cvxarr[cvxarr < 0] = 0
