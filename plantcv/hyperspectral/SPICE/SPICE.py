@@ -83,74 +83,73 @@ def SPICE(inputData, parameters):
         # Find Random Initial Endmembers
         randIndices = np.random.permutation(inputData.shape[1])
         randIndices = randIndices[0:parameters.M]
-        endmembers = inputData[:,randIndices]
+        endmembers = inputData[:, randIndices]
         parameters.initEM = endmembers
 
     else:
         # Use endmembers provided
         M = parameters.initEM.shape[1]
         endmembers = parameters.initEM
-    
+
     # N is the number of pixels, RSSreg is the current objective function total.
     N = X.shape[1]
     RSSreg = np.inf
     change = np.inf
-    
+
     iteration = 0
-    P = np.ones((N,M))*(1/M)
-    lamb = N*parameters.u/((M-1)*(1-parameters.u))
+    P = np.ones((N, M)) * (1 / M)
+    lamb = N * parameters.u / ((M - 1) * (1 - parameters.u))
     Im = np.eye(M)
-    I1 = np.ones((M,1))
-    
-    while((change > parameters.changeThresh) and (iteration < parameters.iterationCap)):
-        
+    I1 = np.ones((M, 1))
+
+    while ((change > parameters.changeThresh) and (iteration < parameters.iterationCap)):
+
         iteration = iteration + 1
 
         # Given Endmembers, minimize P -- Quadratic Programming Problem
         P = unmix3(X, endmembers, parameters.gamma, P)
-        
+
         # Given P minimize Endmembers
         endmembersPrev = endmembers
-        endmembers = (np.linalg.inv(np.dot(P.T, P) + lamb*(Im - np.dot(np.dot(I1, I1.T))/M)), np.dot(P.T, X.T)).T
-                                    
-        
+        endmembers = (np.linalg.inv(P.T @ P + lamb * (Im - (I1 @ I1.T) / M)) @ (P.T @ X.T)).T
+
         # Prune Endmembers below pruning threshold
         pruneFlag = 0
-       
-        pruneIndex = (P.max(0)<parameters.endmemberPruneThreshold)*1
+
+        pruneIndex = (P.max(0) < parameters.endmemberPruneThreshold) * 1
         minmaxP = P.max(0).min()
-       
-        if(sum(pruneIndex) > 0):
+
+        if (sum(pruneIndex) > 0):
             pruneFlag = 1
-            
-            endmembers = endmembers[:,np.where(pruneIndex==0)].squeeze()
-            P = P[:, np.where(pruneIndex==0)].squeeze()
+
+            endmembers = endmembers[:, np.where(pruneIndex == 0)].squeeze()
+            P = P[:, np.where(pruneIndex == 0)].squeeze()
             M = M - sum(pruneIndex)
-            lamb = N*parameters.u/((M-1)*(1-parameters.u))
+            lamb = N * parameters.u / ((M - 1) * (1 - parameters.u))
             Im = np.eye(M)
-            I1 = np.ones((M,1))
-        
+            I1 = np.ones((M, 1))
+
         # Calculate RSSreg (the current objective function value)
-        
-        sqerr = X - np.dot(endmembers, P.T)
-        sqerr = np.power(sqerr, 2) 
+
+        sqerr = X - (endmembers @ P.T)
+        sqerr = np.power(sqerr, 2)
         RSS = sum(sum(sqerr))
-        V = sum(sum(np.multiply(endmembers,endmembers),2) - (1/M)*np.multiply(sum(endmembers,2),2)/(M-1))
-        SPT = M*parameters.gamma
+        V = sum(sum(np.multiply(endmembers, endmembers), 2) - (1 / M) * np.multiply(sum(endmembers, 2), 2) / (M - 1))
+        SPT = M * parameters.gamma
         RSSprev = RSSreg
-        RSSreg = (1-parameters.u)*(RSS/N) + parameters.u*V + SPT
-        
+        RSSreg = (1 - parameters.u) * (RSS / N) + parameters.u * V + SPT
+
         # Determine if Change Threshold has been reached
         change = (abs(RSSreg - RSSprev))
-    
-        if(parameters.produceDisplay):
+
+        if (parameters.produceDisplay):
             print(' ')
             print('Change in Objective Function Value: {}'.format(change))
             print('Minimum of Maximum Proportions: {}'.format(minmaxP))
             print('Number of Endmembers: {}'.format(M))
             print('Iteration: {}'.format(iteration))
             print(' ')
-    
+
     return endmembers, P
 
 
