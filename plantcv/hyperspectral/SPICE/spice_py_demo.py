@@ -1,5 +1,6 @@
 import pickle
-from SPICE import *
+import numpy as np
+from plantcv.hyperspectral.SPICE import *
 import matplotlib.pyplot as plt
 
 
@@ -47,7 +48,7 @@ def main():
     plt.title('SPICE Endmembers')
 
     # unmix the data using the non-downsampled array and the endmembers that SPICE discovered
-    P = unmix2(input_data, endmembers)
+    P = unmix3(input_data, endmembers)
 
     # re-reval abundance maps
     P_imgs = []
