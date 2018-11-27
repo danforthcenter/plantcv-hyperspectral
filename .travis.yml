@@ -3,7 +3,7 @@ language: python
 sudo: false
 # Which versions of Python to test
 python:
-  - "2.7"
+#  - "2.7"
   - "3.6"
   - "3.7"
 # Allow Python3.7 tests to fail for now
@@ -15,12 +15,7 @@ virtualenv:
     system_site_packages: false
 # command to install dependencies
 install:
-  - |
-    if [[ "$TRAVIS_PYTHON_VERSION" == "2.7" ]]; then
-      wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh -O miniconda.sh;
-    else
-      wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
-    fi
+  - wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
   - bash miniconda.sh -b -p $HOME/miniconda
   - export PATH="$HOME/miniconda/bin:$PATH"
   - hash -r
@@ -31,13 +26,7 @@ install:
   # Combine plantcv and plantcv-hyperspectral requirements
   - cat ./plantcv-base/requirements.txt >> requirements.txt
   # These are the packages we need
-  - |
-    if [[ "$TRAVIS_PYTHON_VERSION" == "2.7" ]]; then
-    # matplotlib is causing issues with ths configuration on Travis-CI, overriding normal defaults
-      conda create -q -c conda-forge -n test-environment --file requirements.txt python=$TRAVIS_PYTHON_VERSION opencv=2.4 matplotlib=1.5 coveralls;
-    else
-      conda create -q -c conda-forge -n test-environment --file requirements.txt python=$TRAVIS_PYTHON_VERSION opencv=3.3 coveralls;
-    fi
+  - conda create -q -c conda-forge -n test-environment --file requirements.txt python=$TRAVIS_PYTHON_VERSION opencv=3.3 coveralls
   - source activate test-environment
   # Install base plantcv
   - cd plantcv-base; python setup.py install; cd ..
