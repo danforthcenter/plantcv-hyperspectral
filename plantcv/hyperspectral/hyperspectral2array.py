@@ -77,13 +77,4 @@ def read_hyperspectral_as_array(path):
     print('full image array')
     print(image_array_all.shape)
 
-if params.debug == "print":
-        message = str(filename) + "_input_image.png" + " succesfully opened. With a total of " + str(
-            bandNo) + " bands."
-        print(message)
-    elif params.debug == "plot":
-        message = str(filename) + "_input_image.png" + " succesfully opened. With a total of " + str(
-            bandNo) + " bands."
-        print(message)
-
     return image_array_all, gdalhyper, pixelWidth, cols, rows, bands
