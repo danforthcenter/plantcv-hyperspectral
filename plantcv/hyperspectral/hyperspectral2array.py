@@ -1,24 +1,22 @@
-import os
 from plantcv.plantcv import fatal_error
 from plantcv.plantcv import params
 import os
 from spectral import *
 from osgeo import gdal
-from osgeo import gdalconst
 from osgeo.gdalconst import *
 import numpy as np
 
-def read_hyperspectral_as_array(path):
-    """this function allows you read in hyperspectral images in raw format as array (needs associated .hdr file)
+def hyperspectral2array(path):
+    """this function allows you read in hyperspectral images in raw format and returns it as array (array shape: No.
+    of bands, image width, image length)
 
     Inputs:
-    path     = path to .hdr file, there is the assumption that .hdr file name matches raw image name
+    path     = path to the raw file
 
     Returns:
-    z = average image
+    image_array_all = hyperspectral image in array format
     gdalhyper = hyperspectral image
-    immage_array = averag of hyperspectral image as array
-    pixelWidth =
+    pixelWidth = pixelWidth
     cols = number of cols
     rows = number of rows
     bands = number of bands
@@ -32,8 +30,7 @@ def read_hyperspectral_as_array(path):
 
     device += 1
 
-    if path.endswith("_raw") == False:
-        fatal_error("Input is not an bil file")
+
     if os.path.isfile(path) == False:
         fatal_error(str(path) + " does not exist")
 
