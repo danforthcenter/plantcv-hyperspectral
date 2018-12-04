@@ -1,4 +1,3 @@
-import os
 from plantcv.plantcv import fatal_error
 from plantcv.plantcv import params
 import numpy as np
@@ -6,23 +5,20 @@ import matplotlib.pyplot as plt
 
 
 def normalize_hyperspectral(hyper_array, reference_array_white, reference_array_dark, rows, cols, bands):
-    """this function allows you read in hyperspectral images in raw format as array (needs associated .hdr file)
+    """this function allows you read in hyperspectral images in raw format as array and normalize it with white and dark reference
 
     Inputs:
-    path     = path to .hdr file, there is the assumption that .hdr file name matches raw image name
-
-    Returns:
-    gdalhyper = hyperspectral image
-    immage_array = averag of hyperspectral image as array
+    hyper_array = the array format of the hyperspectral data
+    reference_array_white = the array format of the white reference data
+    reference_array_dark = the array format of the dark reference data
     cols = number of cols
     rows = number of rows
     bands = number of bands
 
+    Returns:
+    norm = normalized hyperspectral image
+    one_channel = plots 10th channel of the normalized hyperspectral image (for visual purposes)
 
-    :param hyperimg: spectral object
-    :param bands: list of band centers
-    :param path: string
-    :return filname: string
     """
 
     device += 1
