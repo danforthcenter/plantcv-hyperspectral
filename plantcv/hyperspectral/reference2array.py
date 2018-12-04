@@ -1,25 +1,24 @@
-import os
 from plantcv.plantcv import fatal_error
 from plantcv.plantcv import params
 import os
 from spectral import *
 from osgeo import gdal
-from osgeo import gdalconst
 from osgeo.gdalconst import *
 import numpy as np
 
 def reference2array(path):
-    """this function allows you read in hyperspectral images in raw format as array (needs associated .hdr file)
-
+    """this function allows you read in hyperspectral reference in raw format and returns it as array that is averaged
+    (this will be used to normalize the raw hyperspectral image)
     Inputs:
-    path     = path to .hdr file, there is the assumption that .hdr file name matches raw image name
+    path     = path to the raw file of reference
 
     Returns:
-    gdalhyper = hyperspectral image
-    immage_array = averag of hyperspectral image as array
-    cols = number of cols
-    rows = number of rows
-    bands = number of bands
+    image_array_all = hyperspectral reference image in array format
+    gdalhyper = hyperspectral reference image
+    pixelWidth = pixelWidth
+    cols = number of cols of raw image
+    rows = number of rows of raw image
+    bands = number of bands of raw image
 
 
     :param hyperimg: spectral object
@@ -30,8 +29,7 @@ def reference2array(path):
 
     device += 1
 
-    if path.endswith("_raw") == False:
-        fatal_error("Input is not an bil file")
+
     if os.path.isfile(path) == False:
         fatal_error(str(path) + " does not exist")
 
@@ -77,15 +75,5 @@ def reference2array(path):
     image_array_ave = np.reshape(output_list, (bands, cols))
     print ('Average image width')
     print (image_array_ave.shape)
-
-
-if params.debug == "print":
-        message = str(filename) + "_input_image.png" + " succesfully opened. With a total of " + str(
-            bandNo) + " bands."
-        print(message)
-    elif params.debug == "plot":
-        message = str(filename) + "_input_image.png" + " succesfully opened. With a total of " + str(
-            bandNo) + " bands."
-        print(message)
 
     return image_array_all, gdalhyper, cols, rows, bands
