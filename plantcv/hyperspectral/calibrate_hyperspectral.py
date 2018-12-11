@@ -21,7 +21,7 @@ def normalize_hyperspectral(hyper_array, reference_array_white, reference_array_
 
     """
 
-    device += 1
+    params.device += 1
 
     image_array_trans = np.transpose(image_array_all[:,:,:], (0,2,1))
     den = image_array_white-image_array_dark
