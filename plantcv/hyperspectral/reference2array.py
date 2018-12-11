@@ -27,7 +27,7 @@ def reference2array(path):
     :return filname: string
     """
 
-    device += 1
+    params.device += 1
 
 
     if os.path.isfile(path) == False:
