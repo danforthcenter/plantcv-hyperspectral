@@ -7,19 +7,16 @@ from osgeo.gdalconst import *
 import numpy as np
 
 def hyperspectral2array(path):
-    """this function allows you read in hyperspectral images in raw format and returns it as array (array shape: No.
+    """this function allows you read in hyperspectral images in raw or corrected format and returns it as array as well as a sample image from the bandnumber entered (array shape: No.
     of bands, image width, image length)
 
     Inputs:
-    path     = path to the raw file
+    path     = path to the hyperspectral file
 
     Returns:
     image_array_all = hyperspectral image in array format
     gdalhyper = hyperspectral image
-    pixelWidth = pixelWidth
-    cols = number of cols
-    rows = number of rows
-    bands = number of bands
+    plots a sample image from the entered waveband
 
 
     :param hyperimg: spectral object
@@ -40,7 +37,8 @@ def hyperspectral2array(path):
         sys.exit("Try again!")
     else:
         print("%s opened successfully" % path)
-        print('Get image size')
+        gdalhyper = gdal.Open(path)
+        arrhyper = gdalhyper.ReadAsArray()
         cols = gdalhyper.RasterXSize
         rows = gdalhyper.RasterYSize
         bands = gdalhyper.RasterCount
@@ -48,30 +46,12 @@ def hyperspectral2array(path):
         print("rows: %i" % rows)
         print("bands: %i" % bands)
         print('Get georeference information')
-        geotransform = gdalhyper.GetGeoTransform()
-        originX = geotransform[0]
-        originY = geotransform[3]
-        pixelWidth = geotransform[1]
-        pixelHeight = geotransform[5]
-        print("origin x: %i" % originX)
-        print("origin y: %i" % originY)
-        print("width: %2.2f" % pixelWidth)
-        print("height: %2.2f" % pixelHeight)
-        # Set pixel offset.....
-        print('Convert image to 2D array')
-        band = gdalhyper.GetRasterBand(1)
-        image_array = band.ReadAsArray(0, 0, cols, rows)
-        image_array_name = path
-        print(type(image_array))
-        print(image_array.shape)
-    output_list = np.zeros((bands, rows, cols), dtype=np.float32)
-    for i in range(1, bands):
-        band = gdalhyper.GetRasterBand(i)
-        image_array3 = band.ReadAsArray(0, 0, cols, rows)
-        image_array_name = path
-        output_list[i] = image_array
-    image_array_all = np.reshape(output_list, (bands, rows, cols))
-    print('full image array')
-    print(image_array_all.shape)
+        hyper_array = np.transpose(arrhyper[:,:,:], (2,1,0))
+            print('array shape')
+        print(hyper_array.shape)
+        print('sample image from band')
+        hyper_array_plt = hyper_array[:,:,band]
+        plt.imshow(hyper_array_plt)
 
-    return image_array_all, gdalhyper, pixelWidth, cols, rows, bands
+
+    return hyper_array, gdalhyper
