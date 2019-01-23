@@ -5,6 +5,9 @@ from spectral import *
 from osgeo import gdal
 from osgeo.gdalconst import *
 import numpy as np
+from matplotlib import pyplot as plt
+
+
 
 def hyperspectral2array(path):
     """this function allows you read in hyperspectral images in raw or corrected format and returns it as array as well as a sample image from the bandnumber entered (array shape: No.
