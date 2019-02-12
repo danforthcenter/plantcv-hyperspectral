@@ -7,25 +7,26 @@ https://github.com/pypa/sampleproject
 
 import sys
 import setuptools
-from setuptools.command.test import test as TestCommand
+#from setuptools.command.test import test as TestCommand
 from codecs import open
 from os import path
+import versioneer
 
 
-class PyTest(TestCommand):
-    def initialize_options(self):
-        TestCommand.initialize_options(self)
-        self.pytest_args = ["--verbose", "tests/tests.py"]
-
-    def finalize_options(self):
-        TestCommand.finalize_options(self)
-        self.test_args = []
-        self.test_suite = True
-
-    def run_tests(self):
-        import pytest
-        errno = pytest.main(self.pytest_args)
-        sys.exit(errno)
+# class PyTest(TestCommand):
+#     def initialize_options(self):
+#         TestCommand.initialize_options(self)
+#         self.pytest_args = ["--verbose", "tests/tests.py"]
+#
+#     def finalize_options(self):
+#         TestCommand.finalize_options(self)
+#         self.test_args = []
+#         self.test_suite = True
+#
+#     def run_tests(self):
+#         import pytest
+#         errno = pytest.main(self.pytest_args)
+#         sys.exit(errno)
 
 
 here = path.abspath(path.dirname(__file__))
@@ -34,16 +35,20 @@ here = path.abspath(path.dirname(__file__))
 with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
+requirements_f = open('requirements.txt', 'r')
+dependencies = [ req for req in requirements_f.readlines() ]
+
 setuptools.setup(
-    name='plantcv-hyperspectral',
+    name='plantcv',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='1.0',
+    version=versioneer.get_version(),
 
-    description='Hyperspectral image analysis add-on for PlantCV.',
+    description='An image processing package for plant phenotyping.',
     long_description=long_description,
+    long_description_content_type='text/markdown',
 
     # The project's main homepage.
     url='http://plantcv.danforthcenter.org',
@@ -76,14 +81,14 @@ setuptools.setup(
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
         'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.6'
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7'
     ],
 
     # What does your project relate to?
-    keywords='image processing bioinformatics',
+    keywords='plant phenotyping bioinformatics',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
@@ -97,7 +102,7 @@ setuptools.setup(
     # your project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['spectral'],
+    install_requires=dependencies,
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). You can install these using the following syntax,
@@ -106,8 +111,9 @@ setuptools.setup(
     # extras_require={
     #     'test': ['pytest-runner', 'pytest'],
     # },
+    setup_requires=["pytest-runner"],
     tests_require=['pytest'],
-    cmdclass={'test': PyTest},
+    cmdclass=versioneer.get_cmdclass(),
 
     # If there are data files included in your packages that need to be
     # installed, specify them here.  If using Python 2.6 or less, then these
