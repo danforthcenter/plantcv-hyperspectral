@@ -1,0 +1,9 @@
+repo_url: https://github.com/danforthcenter/plantcv-hyperspectral
+theme: readthedocs
+
+pages:
+- Home: index.md
+
+markdown_extensions:
+  - toc:
+      permalink: True
