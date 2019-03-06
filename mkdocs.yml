@@ -2,7 +2,7 @@ site_name: PlantCV-Hyperspectral
 repo_url: https://github.com/danforthcenter/plantcv-hyperspectral
 theme: readthedocs
 
-pages:
+nav:
 - 'PlantCV Home': https://plantcv.readthedocs.io
 - Home: index.md
 
