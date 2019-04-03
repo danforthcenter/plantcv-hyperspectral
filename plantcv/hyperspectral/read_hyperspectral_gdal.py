@@ -5,10 +5,10 @@ from osgeo import gdal
 import rasterio
 
 def read_hyperspectral_gdal(path):
-    """this function allows you read in hyperspectral images in raw format (needs associated .hdr file)
+    """this function allows you read in hyperspectral images in raw format
 
     Inputs:
-    path     = path to .hdr file, there is the assumption that .hdr file name matches raw image name
+    path     = path to hyperspectral bil file
 
     Returns:
     hyperimge = image mask
@@ -24,8 +24,6 @@ def read_hyperspectral_gdal(path):
 
     params.device += 1
 
-    if path.endswith("_raw") == False:
-        fatal_error("Input is not an bil file")
     if os.path.isfile(path) == False:
         fatal_error(str(path) + " does not exist")
 
