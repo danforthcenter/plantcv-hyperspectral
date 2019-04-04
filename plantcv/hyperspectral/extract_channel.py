@@ -1,17 +1,22 @@
 # extract any channel from the hyperspectral array
 
+import os
 import numpy as np
 from plantcv.plantcv import fatal_error
 from plantcv.plantcv import params
 import matplotlib.pyplot as plt
+from plantcv.plantcv import params
 
 
 
-"""Reads the hyperspectral image and converts it to array, reads the metadata and extracts the wavelength
 
+def extract_channel(a, b, image_array, wavelength):
+
+    """Reads the array form of hyperspectral image and extracts the desired channel by giving the wavelength range
     Inputs:
     a = lower range of wavelength to extract
     b = higher range of wavelength to extract
+    image_array = image in array format
     wavelength = the list of wavelengths
 
 
@@ -20,24 +25,30 @@ import matplotlib.pyplot as plt
 
     :param a: int
     :param b: int
-    :return channelsum: numpy.ndarray 
-    
-
+    :param image_array: numpy.ndarray
+    :param wavelength: list
+    :return channelsum: numpy.ndarray
     """
+
     params.device += 1
 
+    if a > b:
+        fatal_error("insert a as lower value and b as higher value")
 
-def extract_channel(a, b, wavelength)
+    minwl = int(np.min(wavelength))
+    maxwl = int(np.max(wavelength))
+    if a < minwl:
+       fatal_error("a is out of wavelength range")
+    if b > maxwl:
+       fatal_error("b is out of wavelength range")
 
-    if array is None:
-        fatal_error("Failed to open " + array)
 
-    channel = [i for i in wavelength if i>=a and i<=b]
+    channel = [float(i) for i in wavelength if float(i) >= float(a) and float(i) <= float(b)]
     indchannel = []
     for i in channel:
         d = wavelength.index(i)
         (indchannel.append( (d) ))
-    channel1 = image_array_trans[indchannel[0]:indchannel[-1]]
+    channel1 = image_array[indchannel[0]:indchannel[-1]]
     channelsum = np.sum(channel1, axis=0)
     if params.debug == 'print':
         plt.imsave(os.path.join(params.debug_outdir, str(params.device) + '_extracted' + '.png'), channelsum)
