@@ -1,13 +1,18 @@
-# extract any channel from the hyperspectral array
+# extract ndvi from the hyperspectral array
 
 import numpy as np
+import os
 from plantcv.plantcv import fatal_error
 from plantcv.plantcv import params
 import matplotlib.pyplot as plt
+from plantcv.plantcv import params
+
+
+def extract_ndvi(image_array, wavelength):
 
 
 
-"""Reads the hyperspectral image and converts it to array, reads the metadata and extracts the wavelength
+    """Reads the hyperspectral image and converts it to array, reads the metadata and extracts the wavelength
 
     Inputs:
     image_array = mage in array forma
@@ -16,19 +21,17 @@ import matplotlib.pyplot as plt
     Returns:
     img2 = ndvi using the average value of reflectance in red and nir channels
 
-    :param a: int
-    :param b: int
-    :return channelsum: numpy.ndarray 
-    
+
+    :param image_array: numpy.ndarray
+    :param wavelength: list
+    :return img2: numpy.ndarray
+
 
     """
     params.device += 1
 
-def ndvi (image_array, wavelength):
-
-
-    if array is None:
-        fatal_error("Failed to open " + array)
+    if image_array is None:
+        fatal_error("Failed to open " + image_array)
 
     #extract red channel
     rwl = [i for i in wavelength if i>=663 and i<=673]
@@ -56,13 +59,13 @@ def ndvi (image_array, wavelength):
     maxno1 = np.max(imgndvi) # Get the information of the incoming image type
     data1ndvi = imgndvi.astype(np.float64) / maxno1 # normalize the data to 0 - 1
     data2ndvi = 255 * data1ndvi # Now scale by 255
-    img2 = data2ndvi.astype(np.uint8)
+    imgndvi2 = data2ndvi.astype(np.uint8)
     #imag2_pseducolor = pseudocolor(gray_img=img2, mask=None, cmap='plasma', background="white", min_value=0, max_value=255, obj=None, dpi=None,
                   # axes=True, colorbar=True, path=".")
 
     # plot or print the image
     if params.debug == 'print':
-        plt.imsave(os.path.join(params.debug_outdir, str(params.device) + '_ndvi' + '.png'), img2)
+        plt.imsave(os.path.join(params.debug_outdir, str(params.device) + '_ndvi' + '.png'), imgndvi2)
     elif params.debug == 'plot':
-        plt.imshow(img2, cmap='gray')
-    return img2
+        plt.imshow(imgndvi2, cmap='gray')
+    return imgndvi2
