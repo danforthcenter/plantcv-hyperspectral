@@ -17,7 +17,6 @@ matplotlib.use('Template', warn=False)
 
 TEST_DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 TEST_TMPDIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".cache")
-
 TEST_INPUT_HYPER = "data"
 TEST_INPUT_META = "data.hdr"
 TEST_INPUT_HYPER_ARRAY = "image_array.npz"
@@ -27,9 +26,11 @@ TEST_INPUT_WHITE = "whiteReference"
 TEST_INPUT_RAW = "raw"
 TEST_INPUT_WHITE_REFERENCE = "reference_array_white.npz"
 TEST_INPUT_DARK_REFERENCE = "reference_array_dark.npz"
-
+TEST_INPUT_HYPER = "darkReference.hdr"
+TEST_SPICE = "spice_data.npz"
 
 #TEST_SPICE = "spice_data.npz"
+
 
 
 # ##########################
@@ -147,5 +148,31 @@ def test_read_hs_gdal():
 
     gdalhyper, wavelength = hyp.read_hs_gdal(os.path.join(TEST_DATA, TEST_INPUT_HYPER))
     stats = wavelength.GetStatistics( True, True )
+    stt1 = stats[1]
 
-    assert stats[1] == 1.5714285373688
+    assert stt1 == 1.5714285373688
+
+def test_plantcv_spice_training():
+    spice = np.load(os.path.join(TEST_DATA, TEST_SPICE))
+    # In the SPICE algorithm, initialization parameters are randomized, these have a known output
+    init_endmem = spice['init_endmembers']
+    # Input data (HSI Image)
+    input_data = spice['input_data']
+    # Final data to test against
+    final_endmem = spice['final_endmembers']
+    final_prop = spice['final_proportions']
+    # Load parameters, turn off display
+    params = hy.SPICE.SPICEParameters()
+    params.initEM = init_endmem
+    params.produceDisplay = 0
+    # Run the algorithm
+    endm, P = hy.SPICE.SPICE(input_data, params)
+    # assert with a 0.01% tolerance, since the values are floats (can't do exact comparison)
+    assert np.allclose(endm, final_endmem, rtol=0.0001) and np.allclose(P, final_prop, rtol=0.0001)
+
+
+# ##############################
+# Clean up test files
+# ##############################
+def teardown_function():
+    shutil.rmtree(TEST_TMPDIR)

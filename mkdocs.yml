@@ -1,0 +1,11 @@
+site_name: PlantCV-Hyperspectral
+repo_url: https://github.com/danforthcenter/plantcv-hyperspectral
+theme: readthedocs
+
+nav:
+- 'PlantCV Home': https://plantcv.readthedocs.io
+- Home: index.md
+
+markdown_extensions:
+  - toc:
+      permalink: True
