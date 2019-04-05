@@ -16,6 +16,8 @@ install:
   - git clone --depth=50 https://github.com/danforthcenter/plantcv.git plantcv-base
   # Combine plantcv and plantcv-hyperspectral requirements
   - cat ./plantcv-base/requirements.txt >> requirements.txt
+  - GDAL_VERSION=$(gdal-config --version | awk -F "." '{print $1"."$2}')
+  - sed -i "s/GDAL/GDAL==$GDAL_VERSION/" requirements.txt
   # Install requirements
   - pip install -r requirements.txt
   - pip install coveralls pytest
