@@ -7,6 +7,9 @@ python:
 # Do not have the virtualenv use system-wide site packages
 virtualenv:
     system_site_packages: false
+# Install system dependencies
+before_install:
+  - sudo apt-get install -y libgdal-dev
 # command to install dependencies
 install:
   # Clone base PlantCV
