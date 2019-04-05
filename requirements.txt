@@ -1,2 +1,2 @@
 cvxopt
-osgeo
+GDAL
