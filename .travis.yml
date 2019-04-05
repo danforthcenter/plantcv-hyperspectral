@@ -9,7 +9,7 @@ virtualenv:
     system_site_packages: false
 # Install system dependencies
 before_install:
-  - sudo apt-get install -y libgdal-dev
+  - sudo apt-get install -y libgdal-dev build-essential
 # command to install dependencies
 install:
   # Clone base PlantCV
