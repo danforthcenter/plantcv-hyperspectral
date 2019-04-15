@@ -26,7 +26,6 @@ TEST_INPUT_WHITE = "whiteReference"
 TEST_INPUT_RAW = "raw"
 TEST_INPUT_WHITE_REFERENCE = "reference_array_white.npz"
 TEST_INPUT_DARK_REFERENCE = "reference_array_dark.npz"
-TEST_INPUT_HYPER = "darkReference.hdr"
 TEST_SPICE = "spice_data.npz"
 
 #TEST_SPICE = "spice_data.npz"
@@ -147,7 +146,7 @@ def test_calibrate_hs():
 def test_read_hs_gdal():
 
     gdalhyper, wavelength = hyp.read_hs_gdal(os.path.join(TEST_DATA, TEST_INPUT_HYPER))
-    stats = wavelength.GetStatistics( True, True )
+    stats = wavelength.GetStatistics(True, True)
     stt1 = stats[1]
 
     assert stt1 == 1.5714285373688
@@ -162,11 +161,11 @@ def test_plantcv_spice_training():
     final_endmem = spice['final_endmembers']
     final_prop = spice['final_proportions']
     # Load parameters, turn off display
-    params = hy.SPICE.SPICEParameters()
+    params = hyp.SPICE.SPICEParameters()
     params.initEM = init_endmem
     params.produceDisplay = 0
     # Run the algorithm
-    endm, P = hy.SPICE.SPICE(input_data, params)
+    endm, P = hyp.SPICE.SPICE(input_data, params)
     # assert with a 0.01% tolerance, since the values are floats (can't do exact comparison)
     assert np.allclose(endm, final_endmem, rtol=0.0001) and np.allclose(P, final_prop, rtol=0.0001)
 
