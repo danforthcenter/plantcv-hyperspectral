@@ -1,0 +1,1232 @@
+<PAMDataset>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="INTERLEAVE">LINE</MDI>
+  </Metadata>
+  <Metadata>
+    <MDI key="Band_1">517.282 nm</MDI>
+    <MDI key="Band_10">591.447 nm</MDI>
+    <MDI key="Band_100">1333.1 nm</MDI>
+    <MDI key="Band_101">1341.34 nm</MDI>
+    <MDI key="Band_102">1349.58 nm</MDI>
+    <MDI key="Band_103">1357.82 nm</MDI>
+    <MDI key="Band_104">1366.06 nm</MDI>
+    <MDI key="Band_105">1374.31 nm</MDI>
+    <MDI key="Band_106">1382.55 nm</MDI>
+    <MDI key="Band_107">1390.79 nm</MDI>
+    <MDI key="Band_108">1399.03 nm</MDI>
+    <MDI key="Band_109">1407.27 nm</MDI>
+    <MDI key="Band_11">599.688 nm</MDI>
+    <MDI key="Band_110">1415.51 nm</MDI>
+    <MDI key="Band_111">1423.75 nm</MDI>
+    <MDI key="Band_112">1431.99 nm</MDI>
+    <MDI key="Band_113">1440.23 nm</MDI>
+    <MDI key="Band_114">1448.47 nm</MDI>
+    <MDI key="Band_115">1456.71 nm</MDI>
+    <MDI key="Band_116">1464.95 nm</MDI>
+    <MDI key="Band_117">1473.19 nm</MDI>
+    <MDI key="Band_118">1481.43 nm</MDI>
+    <MDI key="Band_119">1489.67 nm</MDI>
+    <MDI key="Band_12">607.929 nm</MDI>
+    <MDI key="Band_120">1497.91 nm</MDI>
+    <MDI key="Band_121">1506.15 nm</MDI>
+    <MDI key="Band_122">1514.4 nm</MDI>
+    <MDI key="Band_123">1522.64 nm</MDI>
+    <MDI key="Band_124">1530.88 nm</MDI>
+    <MDI key="Band_125">1539.12 nm</MDI>
+    <MDI key="Band_126">1547.36 nm</MDI>
+    <MDI key="Band_127">1555.6 nm</MDI>
+    <MDI key="Band_128">1563.84 nm</MDI>
+    <MDI key="Band_129">1572.08 nm</MDI>
+    <MDI key="Band_13">616.169 nm</MDI>
+    <MDI key="Band_130">1580.32 nm</MDI>
+    <MDI key="Band_131">1588.56 nm</MDI>
+    <MDI key="Band_132">1596.8 nm</MDI>
+    <MDI key="Band_133">1605.04 nm</MDI>
+    <MDI key="Band_134">1613.28 nm</MDI>
+    <MDI key="Band_135">1621.52 nm</MDI>
+    <MDI key="Band_136">1629.76 nm</MDI>
+    <MDI key="Band_137">1638 nm</MDI>
+    <MDI key="Band_138">1646.25 nm</MDI>
+    <MDI key="Band_139">1654.49 nm</MDI>
+    <MDI key="Band_14">624.41 nm</MDI>
+    <MDI key="Band_140">1662.73 nm</MDI>
+    <MDI key="Band_141">1670.97 nm</MDI>
+    <MDI key="Band_142">1679.21 nm</MDI>
+    <MDI key="Band_143">1687.45 nm</MDI>
+    <MDI key="Band_144">1695.69 nm</MDI>
+    <MDI key="Band_145">1703.93 nm</MDI>
+    <MDI key="Band_146">1712.17 nm</MDI>
+    <MDI key="Band_147">1720.41 nm</MDI>
+    <MDI key="Band_148">1728.65 nm</MDI>
+    <MDI key="Band_15">632.65 nm</MDI>
+    <MDI key="Band_16">640.891 nm</MDI>
+    <MDI key="Band_17">649.132 nm</MDI>
+    <MDI key="Band_18">657.372 nm</MDI>
+    <MDI key="Band_19">665.613 nm</MDI>
+    <MDI key="Band_2">525.522 nm</MDI>
+    <MDI key="Band_20">673.853 nm</MDI>
+    <MDI key="Band_21">682.094 nm</MDI>
+    <MDI key="Band_22">690.335 nm</MDI>
+    <MDI key="Band_23">698.575 nm</MDI>
+    <MDI key="Band_24">706.816 nm</MDI>
+    <MDI key="Band_25">715.056 nm</MDI>
+    <MDI key="Band_26">723.297 nm</MDI>
+    <MDI key="Band_27">731.538 nm</MDI>
+    <MDI key="Band_28">739.778 nm</MDI>
+    <MDI key="Band_29">748.019 nm</MDI>
+    <MDI key="Band_3">533.763 nm</MDI>
+    <MDI key="Band_30">756.259 nm</MDI>
+    <MDI key="Band_31">764.5 nm</MDI>
+    <MDI key="Band_32">772.741 nm</MDI>
+    <MDI key="Band_33">780.981 nm</MDI>
+    <MDI key="Band_34">789.222 nm</MDI>
+    <MDI key="Band_35">797.463 nm</MDI>
+    <MDI key="Band_36">805.703 nm</MDI>
+    <MDI key="Band_37">813.944 nm</MDI>
+    <MDI key="Band_38">822.184 nm</MDI>
+    <MDI key="Band_39">830.425 nm</MDI>
+    <MDI key="Band_4">542.004 nm</MDI>
+    <MDI key="Band_40">838.666 nm</MDI>
+    <MDI key="Band_41">846.906 nm</MDI>
+    <MDI key="Band_42">855.147 nm</MDI>
+    <MDI key="Band_43">863.387 nm</MDI>
+    <MDI key="Band_44">871.628 nm</MDI>
+    <MDI key="Band_45">879.869 nm</MDI>
+    <MDI key="Band_46">888.109 nm</MDI>
+    <MDI key="Band_47">896.35 nm</MDI>
+    <MDI key="Band_48">904.59 nm</MDI>
+    <MDI key="Band_49">912.831 nm</MDI>
+    <MDI key="Band_5">550.244 nm</MDI>
+    <MDI key="Band_50">921.072 nm</MDI>
+    <MDI key="Band_51">929.312 nm</MDI>
+    <MDI key="Band_52">937.553 nm</MDI>
+    <MDI key="Band_53">945.794 nm</MDI>
+    <MDI key="Band_54">954.034 nm</MDI>
+    <MDI key="Band_55">962.275 nm</MDI>
+    <MDI key="Band_56">970.515 nm</MDI>
+    <MDI key="Band_57">978.756 nm</MDI>
+    <MDI key="Band_58">986.997 nm</MDI>
+    <MDI key="Band_59">995.237 nm</MDI>
+    <MDI key="Band_6">558.485 nm</MDI>
+    <MDI key="Band_60">1003.48 nm</MDI>
+    <MDI key="Band_61">1011.72 nm</MDI>
+    <MDI key="Band_62">1019.96 nm</MDI>
+    <MDI key="Band_63">1028.2 nm</MDI>
+    <MDI key="Band_64">1036.44 nm</MDI>
+    <MDI key="Band_65">1044.68 nm</MDI>
+    <MDI key="Band_66">1052.92 nm</MDI>
+    <MDI key="Band_67">1061.16 nm</MDI>
+    <MDI key="Band_68">1069.4 nm</MDI>
+    <MDI key="Band_69">1077.64 nm</MDI>
+    <MDI key="Band_7">566.725 nm</MDI>
+    <MDI key="Band_70">1085.88 nm</MDI>
+    <MDI key="Band_71">1094.12 nm</MDI>
+    <MDI key="Band_72">1102.37 nm</MDI>
+    <MDI key="Band_73">1110.61 nm</MDI>
+    <MDI key="Band_74">1118.85 nm</MDI>
+    <MDI key="Band_75">1127.09 nm</MDI>
+    <MDI key="Band_76">1135.33 nm</MDI>
+    <MDI key="Band_77">1143.57 nm</MDI>
+    <MDI key="Band_78">1151.81 nm</MDI>
+    <MDI key="Band_79">1160.05 nm</MDI>
+    <MDI key="Band_8">574.966 nm</MDI>
+    <MDI key="Band_80">1168.29 nm</MDI>
+    <MDI key="Band_81">1176.53 nm</MDI>
+    <MDI key="Band_82">1184.77 nm</MDI>
+    <MDI key="Band_83">1193.01 nm</MDI>
+    <MDI key="Band_84">1201.25 nm</MDI>
+    <MDI key="Band_85">1209.49 nm</MDI>
+    <MDI key="Band_86">1217.73 nm</MDI>
+    <MDI key="Band_87">1225.97 nm</MDI>
+    <MDI key="Band_88">1234.21 nm</MDI>
+    <MDI key="Band_89">1242.46 nm</MDI>
+    <MDI key="Band_9">583.207 nm</MDI>
+    <MDI key="Band_90">1250.7 nm</MDI>
+    <MDI key="Band_91">1258.94 nm</MDI>
+    <MDI key="Band_92">1267.18 nm</MDI>
+    <MDI key="Band_93">1275.42 nm</MDI>
+    <MDI key="Band_94">1283.66 nm</MDI>
+    <MDI key="Band_95">1291.9 nm</MDI>
+    <MDI key="Band_96">1300.14 nm</MDI>
+    <MDI key="Band_97">1308.38 nm</MDI>
+    <MDI key="Band_98">1316.62 nm</MDI>
+    <MDI key="Band_99">1324.86 nm</MDI>
+    <MDI key="wavelength_units">nm</MDI>
+  </Metadata>
+  <Metadata domain="ENVI">
+    <MDI key=";AOI_height">148</MDI>
+    <MDI key=";AOI_left">0</MDI>
+    <MDI key=";AOI_top">80</MDI>
+    <MDI key=";AOI_width">320</MDI>
+    <MDI key=";Array_Pixel_Pitch_(um)">30</MDI>
+    <MDI key=";AverageDispersion">8.24061</MDI>
+    <MDI key=";Col_binning">1</MDI>
+    <MDI key=";HSIII_VERSION">E61025 vs64 5.5.1</MDI>
+    <MDI key=";Lens_EFL_(mm)">25</MDI>
+    <MDI key=";Lens_folder">25mm</MDI>
+    <MDI key=";Pixel0">-141.967</MDI>
+    <MDI key=";POST_AOI_height">148</MDI>
+    <MDI key=";POST_AOI_left">0</MDI>
+    <MDI key=";POST_AOI_top">0</MDI>
+    <MDI key=";POST_AOI_width">320</MDI>
+    <MDI key=";POST_Col_binning">1</MDI>
+    <MDI key=";POST_Row_binning">1</MDI>
+    <MDI key=";Row_binning">1</MDI>
+    <MDI key=";Serial_Number">uVS-298</MDI>
+    <MDI key="bands">148</MDI>
+    <MDI key="byte_order">0</MDI>
+    <MDI key="data_type">4</MDI>
+    <MDI key="default_bands">{16,59,107}</MDI>
+    <MDI key="description">{[HEADWALL Hyperspec III]}</MDI>
+    <MDI key="file_type">ENVI Standard</MDI>
+    <MDI key="header_offset">0</MDI>
+    <MDI key="interleave">bil</MDI>
+    <MDI key="lines">445</MDI>
+    <MDI key="samples">320</MDI>
+    <MDI key="sensor_type">Unknown</MDI>
+    <MDI key="wavelength">{517.282,525.522,533.763,542.004,550.244,558.485,566.725,574.966,583.207,591.447,599.688,607.929,616.169,624.41,632.65,640.891,649.132,657.372,665.613,673.853,682.094,690.335,698.575,706.816,715.056,723.297,731.538,739.778,748.019,756.259,764.5,772.741,780.981,789.222,797.463,805.703,813.944,822.184,830.425,838.666,846.906,855.147,863.387,871.628,879.869,888.109,896.35,904.59,912.831,921.072,929.312,937.553,945.794,954.034,962.275,970.515,978.756,986.997,995.237,1003.48,1011.72,1019.96,1028.2,1036.44,1044.68,1052.92,1061.16,1069.4,1077.64,1085.88,1094.12,1102.37,1110.61,1118.85,1127.09,1135.33,1143.57,1151.81,1160.05,1168.29,1176.53,1184.77,1193.01,1201.25,1209.49,1217.73,1225.97,1234.21,1242.46,1250.7,1258.94,1267.18,1275.42,1283.66,1291.9,1300.14,1308.38,1316.62,1324.86,1333.1,1341.34,1349.58,1357.82,1366.06,1374.31,1382.55,1390.79,1399.03,1407.27,1415.51,1423.75,1431.99,1440.23,1448.47,1456.71,1464.95,1473.19,1481.43,1489.67,1497.91,1506.15,1514.4,1522.64,1530.88,1539.12,1547.36,1555.6,1563.84,1572.08,1580.32,1588.56,1596.8,1605.04,1613.28,1621.52,1629.76,1638,1646.25,1654.49,1662.73,1670.97,1679.21,1687.45,1695.69,1703.93,1712.17,1720.41,1728.65}</MDI>
+    <MDI key="wavelength_units">nm</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Description>517.282 nm</Description>
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">1.5714285373688</MDI>
+      <MDI key="STATISTICS_MEAN">0.0084190110091268</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">0.077559296444195</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+      <MDI key="wavelength">517.282</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Description>525.522 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">525.522</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Description>533.763 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">533.763</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="4">
+    <Description>542.004 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">542.004</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="5">
+    <Description>550.244 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">550.244</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="6">
+    <Description>558.485 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">558.485</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="7">
+    <Description>566.725 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">566.725</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="8">
+    <Description>574.966 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">574.966</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="9">
+    <Description>583.207 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">583.207</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="10">
+    <Description>591.447 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">591.447</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="11">
+    <Description>599.688 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">599.688</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="12">
+    <Description>607.929 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">607.929</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="13">
+    <Description>616.169 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">616.169</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="14">
+    <Description>624.41 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">624.41</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="15">
+    <Description>632.65 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">632.65</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="16">
+    <Description>640.891 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">640.891</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="17">
+    <Description>649.132 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">649.132</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="18">
+    <Description>657.372 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">657.372</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="19">
+    <Description>665.613 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">665.613</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="20">
+    <Description>673.853 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">673.853</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="21">
+    <Description>682.094 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">682.094</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="22">
+    <Description>690.335 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">690.335</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="23">
+    <Description>698.575 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">698.575</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="24">
+    <Description>706.816 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">706.816</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="25">
+    <Description>715.056 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">715.056</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="26">
+    <Description>723.297 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">723.297</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="27">
+    <Description>731.538 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">731.538</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="28">
+    <Description>739.778 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">739.778</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="29">
+    <Description>748.019 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">748.019</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="30">
+    <Description>756.259 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">756.259</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="31">
+    <Description>764.5 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">764.5</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="32">
+    <Description>772.741 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">772.741</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="33">
+    <Description>780.981 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">780.981</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="34">
+    <Description>789.222 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">789.222</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="35">
+    <Description>797.463 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">797.463</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="36">
+    <Description>805.703 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">805.703</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="37">
+    <Description>813.944 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">813.944</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="38">
+    <Description>822.184 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">822.184</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="39">
+    <Description>830.425 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">830.425</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="40">
+    <Description>838.666 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">838.666</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="41">
+    <Description>846.906 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">846.906</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="42">
+    <Description>855.147 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">855.147</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="43">
+    <Description>863.387 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">863.387</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="44">
+    <Description>871.628 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">871.628</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="45">
+    <Description>879.869 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">879.869</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="46">
+    <Description>888.109 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">888.109</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="47">
+    <Description>896.35 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">896.35</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="48">
+    <Description>904.59 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">904.59</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="49">
+    <Description>912.831 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">912.831</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="50">
+    <Description>921.072 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">921.072</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="51">
+    <Description>929.312 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">929.312</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="52">
+    <Description>937.553 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">937.553</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="53">
+    <Description>945.794 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">945.794</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="54">
+    <Description>954.034 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">954.034</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="55">
+    <Description>962.275 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">962.275</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="56">
+    <Description>970.515 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">970.515</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="57">
+    <Description>978.756 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">978.756</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="58">
+    <Description>986.997 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">986.997</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="59">
+    <Description>995.237 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">995.237</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="60">
+    <Description>1003.48 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1003.48</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="61">
+    <Description>1011.72 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1011.72</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="62">
+    <Description>1019.96 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1019.96</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="63">
+    <Description>1028.2 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1028.2</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="64">
+    <Description>1036.44 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1036.44</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="65">
+    <Description>1044.68 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1044.68</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="66">
+    <Description>1052.92 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1052.92</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="67">
+    <Description>1061.16 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1061.16</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="68">
+    <Description>1069.4 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1069.4</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="69">
+    <Description>1077.64 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1077.64</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="70">
+    <Description>1085.88 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1085.88</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="71">
+    <Description>1094.12 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1094.12</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="72">
+    <Description>1102.37 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1102.37</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="73">
+    <Description>1110.61 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1110.61</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="74">
+    <Description>1118.85 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1118.85</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="75">
+    <Description>1127.09 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1127.09</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="76">
+    <Description>1135.33 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1135.33</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="77">
+    <Description>1143.57 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1143.57</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="78">
+    <Description>1151.81 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1151.81</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="79">
+    <Description>1160.05 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1160.05</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="80">
+    <Description>1168.29 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1168.29</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="81">
+    <Description>1176.53 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1176.53</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="82">
+    <Description>1184.77 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1184.77</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="83">
+    <Description>1193.01 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1193.01</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="84">
+    <Description>1201.25 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1201.25</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="85">
+    <Description>1209.49 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1209.49</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="86">
+    <Description>1217.73 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1217.73</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="87">
+    <Description>1225.97 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1225.97</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="88">
+    <Description>1234.21 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1234.21</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="89">
+    <Description>1242.46 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1242.46</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="90">
+    <Description>1250.7 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1250.7</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="91">
+    <Description>1258.94 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1258.94</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="92">
+    <Description>1267.18 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1267.18</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="93">
+    <Description>1275.42 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1275.42</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="94">
+    <Description>1283.66 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1283.66</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="95">
+    <Description>1291.9 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1291.9</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="96">
+    <Description>1300.14 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1300.14</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="97">
+    <Description>1308.38 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1308.38</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="98">
+    <Description>1316.62 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1316.62</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="99">
+    <Description>1324.86 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1324.86</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="100">
+    <Description>1333.1 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1333.1</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="101">
+    <Description>1341.34 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1341.34</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="102">
+    <Description>1349.58 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1349.58</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="103">
+    <Description>1357.82 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1357.82</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="104">
+    <Description>1366.06 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1366.06</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="105">
+    <Description>1374.31 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1374.31</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="106">
+    <Description>1382.55 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1382.55</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="107">
+    <Description>1390.79 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1390.79</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="108">
+    <Description>1399.03 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1399.03</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="109">
+    <Description>1407.27 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1407.27</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="110">
+    <Description>1415.51 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1415.51</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="111">
+    <Description>1423.75 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1423.75</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="112">
+    <Description>1431.99 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1431.99</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="113">
+    <Description>1440.23 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1440.23</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="114">
+    <Description>1448.47 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1448.47</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="115">
+    <Description>1456.71 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1456.71</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="116">
+    <Description>1464.95 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1464.95</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="117">
+    <Description>1473.19 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1473.19</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="118">
+    <Description>1481.43 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1481.43</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="119">
+    <Description>1489.67 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1489.67</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="120">
+    <Description>1497.91 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1497.91</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="121">
+    <Description>1506.15 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1506.15</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="122">
+    <Description>1514.4 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1514.4</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="123">
+    <Description>1522.64 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1522.64</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="124">
+    <Description>1530.88 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1530.88</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="125">
+    <Description>1539.12 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1539.12</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="126">
+    <Description>1547.36 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1547.36</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="127">
+    <Description>1555.6 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1555.6</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="128">
+    <Description>1563.84 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1563.84</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="129">
+    <Description>1572.08 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1572.08</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="130">
+    <Description>1580.32 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1580.32</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="131">
+    <Description>1588.56 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1588.56</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="132">
+    <Description>1596.8 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1596.8</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="133">
+    <Description>1605.04 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1605.04</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="134">
+    <Description>1613.28 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1613.28</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="135">
+    <Description>1621.52 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1621.52</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="136">
+    <Description>1629.76 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1629.76</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="137">
+    <Description>1638 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1638</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="138">
+    <Description>1646.25 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1646.25</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="139">
+    <Description>1654.49 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1654.49</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="140">
+    <Description>1662.73 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1662.73</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="141">
+    <Description>1670.97 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1670.97</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="142">
+    <Description>1679.21 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1679.21</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="143">
+    <Description>1687.45 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1687.45</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="144">
+    <Description>1695.69 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1695.69</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="145">
+    <Description>1703.93 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1703.93</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="146">
+    <Description>1712.17 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1712.17</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="147">
+    <Description>1720.41 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1720.41</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="148">
+    <Description>1728.65 nm</Description>
+    <Metadata>
+      <MDI key="wavelength">1728.65</MDI>
+      <MDI key="wavelength_units">nm</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
