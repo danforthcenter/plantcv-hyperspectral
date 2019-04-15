@@ -7,12 +7,20 @@ python:
 # Do not have the virtualenv use system-wide site packages
 virtualenv:
     system_site_packages: false
+# Install system dependencies
+before_install:
+  - sudo apt-get install -y libgdal-dev
 # command to install dependencies
 install:
   # Clone base PlantCV
   - git clone --depth=50 https://github.com/danforthcenter/plantcv.git plantcv-base
   # Combine plantcv and plantcv-hyperspectral requirements
   - cat ./plantcv-base/requirements.txt >> requirements.txt
+  # Do a bunch of things to get the Python GDAL package to install correctly
+  - GDAL_VERSION=$(gdal-config --version | awk -F "." '{print $1"."$2}')
+  - sed -i "s/GDAL/GDAL==$GDAL_VERSION/" requirements.txt
+  - export CPLUS_INCLUDE_PATH=/usr/include/gdal
+  - export C_INCLUDE_PATH=/usr/include/gdal
   # Install requirements
   - pip install -r requirements.txt
   - pip install coveralls pytest
