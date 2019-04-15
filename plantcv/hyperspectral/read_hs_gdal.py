@@ -29,7 +29,7 @@ def read_hs_gdal(path):
     wavelength = gdalhyper.GetRasterBand(1)
     bandNo = gdalhyper.RasterCount
     if params.debug == "plot":
-        message = str(filename) + "_input_image.png" + " succesfully opened. With a total of " + str(
+        message = "_input_image.png" + " successfully opened. With a total of " + str(
             bandNo) + " bands."
         print(message)
 
