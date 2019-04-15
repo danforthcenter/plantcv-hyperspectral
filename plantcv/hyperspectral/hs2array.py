@@ -49,7 +49,6 @@ def hs2array(path_file, path_wl):
 
     # reads hyperspectral data
     gdalhyper = gdal.Open(path_file)
-
     # converts hyperspectral data to array
     hyper_array = gdalhyper.ReadAsArray()
 
